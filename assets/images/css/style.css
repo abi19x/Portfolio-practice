@@ -25,6 +25,19 @@ h2 {
     border-radius: 0;
 }
 
+/* Buttons */
+.custom-button {
+    background-color: #1f7798; /* mid-blue */
+    border: #1f7798; /* mid-blue */;
+}
+
+.custom-button:hover {
+    background-color: #1d6d8a;
+    border: #1d6d8a;
+
+}
+
+
 /* About section */
 #about {
     background-color: white;
@@ -56,6 +69,7 @@ h2 {
     background-color: white;
 }
 
+
 #hero {
     background: url(../hero-image-mei.webp);
     background-size: cover;
@@ -63,6 +77,13 @@ h2 {
     background-color: #dbdcde; /* In case the background image doesn`t load, a light grey color will be used*/
     min-height: 500px;
     background-position: 50% 70%;
+}
+
+/* Modal section */
+
+
+.modal-body .form-label {
+    color: black;
 }
 
 /* Media queries */
